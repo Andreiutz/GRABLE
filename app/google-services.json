@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "708558003568",
+    "firebase_url": "https://grableapp.firebaseio.com",
+    "project_id": "grableapp",
+    "storage_bucket": "grableapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708558003568:android:d875ad89eadeea1f",
+        "android_client_info": {
+          "package_name": "com.example.grableapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708558003568-7njscfalsh3vp8bu4prg8agg8fkn1fp6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.grableapp",
+            "certificate_hash": "fcef1b4122c2d77b22889d0d1c3d82bebb2c3f37"
+          }
+        },
+        {
+          "client_id": "708558003568-7ikjq6rqktv01h04644fgjk18j4dd1q3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuYu8Fp6DnePRteMd0XHfZ5gw0h_93gfE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708558003568-7ikjq6rqktv01h04644fgjk18j4dd1q3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d1d1d1">
+
+    <ImageView
+        android:id="@+id/animationview"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/paymentview"/>
+
+    <ImageView
+        android:id="@+id/loadinganimation"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="265dp"
+        android:src="@drawable/loadinganimation"/>
+
+
+    <TextView
+        android:id="@+id/pleasewaitvew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Please wait"
+        android:textSize="40dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="200dp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/proccesingview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Processing..."
+        android:textColor="#FFF"
+        android:textSize="30dp"
+        android:fontFamily="bold"
+        android:layout_marginTop="275dp"
+        android:layout_marginLeft="140dp"/>
+
+
+    <!--<ProgressBar-->
+        <!--android:id="@+id/progressBar"-->
+        <!--style="?android:progressBarStyleHorizontal"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:indeterminate="false"-->
+        <!--android:progress="80"-->
+        <!--android:progressDrawable="@drawable/circle"-->
+        <!--android:layout_marginTop="250dp"-->
+        <!--android:layout_marginLeft="50dp"-->
+        <!--/>-->
+</RelativeLayout>

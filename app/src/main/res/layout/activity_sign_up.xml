@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity"
+    android:background="@drawable/loginandsignupfinal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="291dp"
+            android:layout_height="82dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="9dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="183dp"
+            android:layout_marginEnd="111dp"
+            android:layout_marginRight="111dp"
+            android:layout_marginBottom="471dp"
+            app:srcCompat="@drawable/registertext" />
+
+            <EditText
+                android:id="@+id/editTextEmail"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="57dp"
+                android:layout_marginLeft="57dp"
+                android:layout_marginTop="277dp"
+                android:layout_marginEnd="52dp"
+                android:layout_marginRight="52dp"
+                android:layout_marginBottom="293dp"
+                android:background="@drawable/input_field"
+                android:fontFamily="sans-serif"
+                android:hint="Email Adress"
+                android:inputType="textEmailAddress"
+                android:paddingBottom="15dp"
+                android:textColorHighlight="#000"
+                android:textColorHint="#000"
+                android:textCursorDrawable="@null"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/editTextPassword"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="58dp"
+                android:layout_marginLeft="58dp"
+                android:layout_marginTop="348dp"
+                android:layout_marginEnd="49dp"
+                android:layout_marginRight="49dp"
+                android:layout_marginBottom="312dp"
+                android:background="@drawable/input_field"
+                android:fontFamily="sans-serif"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:paddingBottom="15dp"
+                android:textColor="#000"
+                android:textColorHint="#000"
+                android:textCursorDrawable="@null"
+                android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/buttonSignUp"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="58dp"
+            android:layout_marginLeft="58dp"
+            android:layout_marginTop="460dp"
+            android:layout_marginEnd="235dp"
+            android:layout_marginRight="235dp"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/loginbutton"
+            android:text="Signup"
+            android:textAllCaps="false"
+            android:textColor="#9370DB"
+            android:textSize="18dp" />
+
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="410dp"
+            android:layout_marginLeft="60dp"
+            android:text="I accept the terms and conditions of Grabble"/>
+
+            <TextView
+                android:id="@+id/textViewLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="600dp"
+                android:padding="15dp"
+                android:text="Already have an account? Log In"
+                android:textAlignment="center"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="#000"
+                android:textColorHighlight="#000"
+                android:textColorHint="#000" />
+
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

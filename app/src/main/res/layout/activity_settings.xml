@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightGray">
+
+    <Button
+        android:id="@+id/logOutButton"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="543dp"
+        android:layout_marginLeft="30dp"
+        android:drawableLeft="@drawable/logouticon"
+        android:text="@string/log_out"
+        android:textAllCaps="false"
+        android:paddingLeft="20dp"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:background="@drawable/startshoppingbutton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.872"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.22"
+        android:padding="20dp"/>
+
+    <Button
+        android:id="@+id/changeusername"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="283dp"
+        android:layout_marginLeft="280dp"
+        android:background="@drawable/change_username_button"
+        android:drawableLeft= "@drawable/chagne_username_button_check"
+        android:paddingLeft="20dp"
+
+         />
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="230dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="283dp"
+        android:drawableLeft="@drawable/userlogo"
+        android:hint="Change username"
+        android:background="@drawable/input_field_username"
+        android:textColorHint="#fff"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="700dp"
+        android:layout_marginLeft="15dp"
+        android:text="grabble // v 0.1.1"/>
+
+    <Button
+        android:id="@+id/addCardButton"
+        android:drawableLeft="@drawable/cardlogo"
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="70dp"
+        android:layout_marginTop="413dp"
+        android:layout_marginLeft="30dp"
+        android:text="Add Credit Card"
+        android:textAllCaps="false"
+        android:paddingLeft="20dp"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:background="@drawable/startshoppingbutton"/>
+
+
+
+    <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/separatebar"
+    android:layout_marginTop="120dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/separatebar"
+        android:layout_marginTop="250dp"/>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/settingstext"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/separatebar"
+        android:layout_marginTop="380dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/separatebar"
+        android:layout_marginTop="510dp"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="Hello User!"
+        android:textColor="#9370db"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+</RelativeLayout>
